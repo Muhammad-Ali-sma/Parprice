@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "870569139558",
+    "project_id": "parprice-379d5",
+    "storage_bucket": "parprice-379d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870569139558:android:8a8d329a86bdfefd423ca7",
+        "android_client_info": {
+          "package_name": "com.mayoapps.parprice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870569139558-nlp1b6lfeif3ia0to6gilnn19uvaqn3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpa7TfJJO-u1i_Ifyc55bGJ05wzHxJbek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870569139558-nlp1b6lfeif3ia0to6gilnn19uvaqn3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

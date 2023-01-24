@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Parprice",
+    "slug": "Parprice",
+    "version": "5.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mayoapps.parprice",
+      "infoPlist": {
+        "NSCameraUsageDescription": "If you want to take a picture when adding a new product we need permission to use your camera."
+      }
+    },
+    "android": {
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.mayoapps.parprice",
+      "permissions": [
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_WIFI_STATE",
+        "CAMERA",
+        "FOREGROUND_SERVICE",
+        "INTERNET",
+        "MANAGE_DOCUMENTS",
+        "HIGH_SAMPLING_RATE_SENSORS",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_APP_BADGE",
+        "READ_INTERNAL_STORAGE",
+        "READ_PHONE_STATE",
+        "SCHEDULE_EXACT_ALARM",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "WRITE_SETTINGS"
+      ],
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mayoapps.parprice"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3d19046e-bada-4f62-a374-4fdc69db2357"
+      }
+    }
+  }
+}
